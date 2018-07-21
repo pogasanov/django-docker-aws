@@ -4,7 +4,7 @@ FROM python:3
 # Your contacts, so people blame you afterwards
 MAINTAINER Pavel Gasanov <pogasanov@gmail.com>
 
-# Setting this environment variable will greatly speed up building image
+# Sets dumping log messages directly to stream instead of buffering
 ENV PYTHONUNBUFFERED 1
 
 # Creating and putting configurations
