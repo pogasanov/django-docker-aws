@@ -2,7 +2,7 @@
 FROM python:3
 
 # Your contacts, so people blame you afterwards
-MAINTAINER Pavel Gasanov <pogasanov@gmail.com>
+LABEL maintainer="Pavel Gasanov <pogasanov@gmail.com>"
 
 # Sets dumping log messages directly to stream instead of buffering
 ENV PYTHONUNBUFFERED 1
