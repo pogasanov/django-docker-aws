@@ -4,4 +4,4 @@ Simple deployment-ready django application, built in docker for AWS ElasticBeans
 
 ## Getting Started
 
-This repository is supposed to be used in conjunction with [deployment guide](pogasanov.ru/posts/django-docker-aws).
+This repository is supposed to be used in conjunction with [deployment guide](https://pogasanov.ru/posts/django-docker-aws).
