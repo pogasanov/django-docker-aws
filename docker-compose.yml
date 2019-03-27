@@ -17,6 +17,8 @@ services:
       - "8000"
     depends_on:
       - db
+    environment:
+      - DJANGO_SETTINGS_MODULE=myproject.settings_dev
   nginx:
     image: nginx:latest
     hostname: nginx
