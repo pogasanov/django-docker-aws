@@ -8,5 +8,11 @@
    {
      "ContainerPort": "8000"
    }
- ]
+ ],
+ "Volumes": [
+  {
+    "HostDirectory": "/srv",
+    "ContainerDirectory": "/srv"
+  }
+]
 }

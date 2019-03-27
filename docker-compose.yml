@@ -12,6 +12,7 @@ services:
     hostname: app
     volumes:
       - ./app:/app
+      - static:/srv
     expose:
       - "8000"
     depends_on:
@@ -23,5 +24,9 @@ services:
       - "8000:8000"
     volumes:
       - ./config/nginx:/etc/nginx/conf.d
+      - static:/srv:ro
     depends_on:
       - app
+
+volumes:
+  static:
